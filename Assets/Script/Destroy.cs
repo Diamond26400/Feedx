@@ -15,6 +15,7 @@ public class Destroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Remove that object when the player goes pass the scene
         if (transform.position.z > TopBond)
         {
             Destroy(gameObject);
@@ -23,5 +24,6 @@ public class Destroy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        Debug.Log("Game Over");
     } 
 }
