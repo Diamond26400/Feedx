@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour
     private float SpawnProsZ = 20.0f;
     private float SpawnDelay = 2.0f;
     private float SpawnInterval = 1.5f;
+
    // Start is called before the first frame update
 
     void start ()
@@ -18,7 +19,7 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        {
+        {      
             SpawnRandomAnimal();
         }
     }

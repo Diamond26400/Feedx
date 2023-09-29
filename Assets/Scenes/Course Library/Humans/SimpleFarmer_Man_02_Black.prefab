@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 9500000}
   - component: {fileID: 2080841454}
+  - component: {fileID: 1420675139}
   m_Layer: 0
   m_Name: SimpleFarmer_Man_02_Black
   m_TagString: Untagged
@@ -71,10 +72,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ed6306497f6964ea6956fe10e95e9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xRange: 10
-  speed: 30
   horizontalInput: 0
-  Projectpreferb: {fileID: 2542887543904373886, guid: 962c1bf91a522974db545220593d7189, type: 3}
+  xRange: 10
+  Speed: 8
+  move: 10
+--- !u!114 &1420675139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: d5c79d60e62bdb14282d84b48114ddf5, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: movement
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
