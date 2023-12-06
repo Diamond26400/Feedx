@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Destroy : MonoBehaviour
@@ -21,6 +22,22 @@ public class Destroy : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Game Over");
 
+        }
+
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        // Check if the collision is with a specific tag
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Destroy the collided object
+            Destroy(collision.gameObject);
+
+            // Optionally, destroy the object with this script as well
+            Destroy(gameObject);
+
+            // Log a message
+            Debug.Log("Collided with and destroyed an enemy!");
         }
     }
 }
