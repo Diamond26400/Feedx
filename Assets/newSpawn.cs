@@ -7,19 +7,17 @@ public class newSpawn : MonoBehaviour
 {
     public GameObject Player;
     public GameObject foodPrefab;
-    // Start is called before the first frame update
-    void instantiate(InputAction.PlayerInput input)
-    {
-        Debug.Log("Spawn");
-        
-    }
 
+    // Start is called before the first frame update
+  
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Spawn"))
+        
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(foodPrefab, Player.transform.position, Quaternion.identity);
         }
+        Debug.Log("Spawn");
     }
 }
