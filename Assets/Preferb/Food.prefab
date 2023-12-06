@@ -12,12 +12,10 @@ GameObject:
   - component: {fileID: 2542887543903212704}
   - component: {fileID: 2542887543902152242}
   - component: {fileID: 2542887544637938060}
-  - component: {fileID: 8404621833758683788}
-  - component: {fileID: -1684360759710961059}
   - component: {fileID: 1322915628126273901}
   - component: {fileID: 5149976516710156200}
   m_Layer: 0
-  m_Name: Food_Steak_01
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,33 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &8404621833758683788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542887543904373886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c82c695bd02c64aaba81d8390eb536, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-1684360759710961059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542887543904373886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 763401d84f9e27b45811c6e3280e1831, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Projectpreferb: {fileID: 2542887543904373886}
-  SpawnInterval: 1
-  spawnPosition: {x: 0, y: 0, z: 0}
 --- !u!65 &1322915628126273901
 BoxCollider:
   m_ObjectHideFlags: 0

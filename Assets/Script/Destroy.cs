@@ -16,7 +16,7 @@ public class Destroy : MonoBehaviour
     void Update()
     {
         // Remove that object when the player goes pass the scene
-        if (transform.position.z > TopBond)
+        if (transform.position.z < TopBond)
         {
             Destroy(gameObject);
         }
