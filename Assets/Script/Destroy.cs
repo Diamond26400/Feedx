@@ -5,25 +5,22 @@ using UnityEngine;
 public class Destroy : MonoBehaviour
 {
     private float TopBond = 30.0f;
-    private float lowBond = 30.0f;
+    private float lowBond = -30.0f;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         // Remove that object when the player goes pass the scene
-        if (transform.position.z < TopBond)
+        if (transform.position.z < lowBond || transform.position.z > TopBond)
         {
             Destroy(gameObject);
+            Debug.Log("Game Over");
+
         }
-        else if (transform.position.z < lowBond) 
-        {
-            Destroy(gameObject);
-        }
-        Debug.Log("Game Over");
-    } 
+    }
 }
