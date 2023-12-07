@@ -17,7 +17,8 @@ public class newSpawn : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(foodPrefab, Player.transform.position, Quaternion.identity);
+            Debug.Log("Spawn");
         }
-        Debug.Log("Spawn");
+        
     }
 }

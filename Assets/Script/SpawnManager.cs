@@ -12,16 +12,15 @@ public class SpawnManager : MonoBehaviour
 
    // Start is called before the first frame update
 
-    void start ()
+  public   void start ()
     {
         InvokeRepeating("SpawnRandomAnimal", SpawnDelay, SpawnInterval);
     }
     void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {      
+            
             SpawnRandomAnimal();
-        }
+        
     }
     
 
