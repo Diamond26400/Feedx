@@ -3675,7 +3675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
-  destroyThreshold: -10
+  destroyThreshold: -20
 --- !u!1 &1973367680361156137
 GameObject:
   m_ObjectHideFlags: 0
