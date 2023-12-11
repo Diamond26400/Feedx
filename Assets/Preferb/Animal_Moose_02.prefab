@@ -352,6 +352,8 @@ GameObject:
   - component: {fileID: 9086721378001371920}
   - component: {fileID: 6746317803999483058}
   - component: {fileID: -4623680164323004817}
+  - component: {fileID: 8254699160068148737}
+  - component: {fileID: 3633026622895635283}
   m_Layer: 0
   m_Name: Animal_Moose_02
   m_TagString: Enemy
@@ -432,6 +434,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   destroyThreshold: -20
+--- !u!114 &8254699160068148737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086721377992141726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3633026622895635283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086721377992141726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9086721377992150720
 GameObject:
   m_ObjectHideFlags: 0
